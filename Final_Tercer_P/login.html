@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <section class="login">
+        <section class="login__container">
+            <div class="logo">
+                <a href=""><img src="../imgs/logo_colegio.png"></a>
+            </div>
+            <h2>Inicia sesión</h2><br>
+            <form id="form" class="login__container--form">
+                <input class="input" id="correoi" type="text" placeholder="Correo">
+                <input class="input" id="contraseñai" type="password" placeholder="Contraseña">
+                <label>
+                    <input type="checkbox" name="" id="cbox1" value="checkbox"> Recuerdame
+                </label>
+                <button type="submit" class="button">Iniciar sesión</button>
+                <div class="login__container--remember">
+                    <p>No tienes cuenta?<a href="register.html"> Registrate aqui  </a></p>
+                </div>  
+            </form>
+
+    </section>
+
+    <script src="./scripts/login.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
